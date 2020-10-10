@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h5 style="margin-bottom: -2rem; padding-left: 95px;">DELIVERY (CHOOSE ONE OPTION)</h5>
+        <div class="form-field" data-product-attribute="set-radio" style>
+            <label class="form-label form-label--alternate form-label--inlineSmall"
+                style="margin-top: -65px; padding-right: 67px;">
+                Subscribe &amp; Save 10%:
+                <small>Required</small>
+            </label>
+            <input onchange="handleChange(this)" class="form-radio" type="radio" id="attribute_radio_875_493"
+                name="attribute[875]" value="493" required="" data-state="false">
+            <label data-product-attribute-value="493" class="form-label" for="attribute_radio_875_493"
+                style="margin: initial; padding-right: 115px;">One Time Only</label>
+            <input onchange="handleChange(this)" class="form-radio" type="radio" id="attribute_radio_875_497"
+                name="attribute[875]" value="497" data-default="" required="" data-state="true">
+            <label data-product-attribute-value="497" class="form-label" for="attribute_radio_875_497"
+                style="margin: initial; padding-left: 111px;">Auto-ship - Subscribe & Save! (USA Orders Only)</label>
+            <ul style="list-style-type:none; padding-left: 108px;">
+                <li style="margin-top:10px; width:60%; min-width:285px; border: 1px solid #f5f5f5 "
+                    class="ProdFeatures"><span class="fa-layers fa-fw" style="background:#fff; margin-right:10px;"><i
+                            class="fas fa-check" style="color:#3984A9" aria-hidden="true"></i></span>Free shipping on
+                    ALL recurring orders</li>
+                <li style="margin-top:10px; width:60%; min-width:285px; border: 1px solid #f5f5f5" class="ProdFeatures">
+                    <span class="fa-layers fa-fw" style="background:#fff; margin-right:10px;"><i class="fas fa-check"
+                            style="color:#3984A9" aria-hidden="true"></i></span>Skip, change or cancel anytime</li>
+            </ul>
+        </div>
+        <div id="dropdown-container">
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+</body>
+
+</html>
